@@ -26,3 +26,28 @@
     text-align: center;
   }
 }
+@media screen and (max-width: 1400px) {
+  #profile {
+      height: 83vh;
+      margin-bottom: 6rem;
+  }
+
+  .about-containers {
+      flex-wrap: wrap;
+  }
+
+  #contact,
+  #projects {
+      height: fit-content;
+  }
+
+  .experience,
+  .education {
+      width: -webkit-fill-available;
+  }
+
+  .experience-res {
+      display: flex;
+      flex-direction: column;
+  }
+}
