@@ -7,6 +7,10 @@
   .about-containers {
     flex-wrap: wrap;
   }
+  #contact,
+    #projects {
+        height: fit-content;
+    }
 
   .experience,
   .education {
@@ -78,6 +82,10 @@
   .menu-links a {
     font-size: 1rem;
   }
+  #contact,
+    footer {
+        height: 40vh;
+    }
 
   #profile {
     height: 83vh;
@@ -212,4 +220,7 @@
   .article-container-p {
     flex-direction: column;
   }
+  .footer-copyright {
+    font-size: 0.75rem;
+}
 }
